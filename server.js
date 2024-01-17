@@ -2,7 +2,7 @@ let http = require('http');
 let formidable = require('formidable');
 let fs = require('fs');
 
-http.createServer(function (req, res) {
+const app = http.createServer(function (req, res) {
     console.log(req.url);
     
 
@@ -48,4 +48,8 @@ http.createServer(function (req, res) {
         });
     }
 
-}).listen(4040);
+})
+
+app.listen(4040, () => { 
+    console.log("listening for request on port 4040");
+});
