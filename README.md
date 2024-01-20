@@ -4,7 +4,7 @@ This project is a simple file upload application built using Node.js for the ser
 
 ## Features
 
-- Supports file types: PDF, TEXT, DOC, DOCX, JPG, PNG, SVG
+- Supports all file format
 
 ## Prerequisites
 
