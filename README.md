@@ -4,7 +4,7 @@ This project is a simple file upload application built using Node.js for the ser
 
 ## Features
 
-- Supports file types: PDF, TEXT, DOC, DOCX, JPG, PNG, SVG
+- Supports all file format
 
 ## Prerequisites
 
@@ -35,3 +35,8 @@ Before you begin, ensure you have met the following requirements:
    ```bash
    npm start
 5. Open your browser and go to http://localhost:4040 to view the application.
+
+## Tools 
+- Node.js
+- Formidable Module (npm package)
+
